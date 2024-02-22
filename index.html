@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="./assets/logo.svg" alt="logo" />
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a href="#" class="link-underline link-underline-opacity-0 text-black mx-3">Browse</a>
+            <a href="#" class="link-underline link-underline-opacity-0 text-black mx-3">Landings</a>
+            <a href="#" class="link-underline link-underline-opacity-0 text-black mx-3">Pages</a>
+            <a href="#" class="link-underline link-underline-opacity-0 text-black mx-3">Accounts</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="mx-2 bg-white rounded">
+              <i class="bi bi-bell"></i>
+              <span class="position-absolute top-1 end-1 badge rounded-circle bg-primary"> </span>
+            </div>
+            <div>
+              <img src="./assets/avatar-1.jpg" alt="avatar1" class="rounded-circle w-25 mx-3" />
+              <!-- <span class="position-absolute bottom-0 start-25 translate-middle-y badge rounded-circle bg-success">
+              </span> -->
+            </div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <section>
+        <div class="container-fluid bg-primary">
+          <div class="container d-flex flex-column flex-lg-row align-items-start align-items-lg-center">
+            <div class="pe-3">
+              <h2 class="text-white fw-bold">Welcome Web Students!</h2>
+              <p class="text-white">
+                Hand-picked instructor and expertly crafted <br />courses, designed for the modern students and
+                <br />entrepreneur
+              </p>
+              <button type="button" class="bg-success text-white border-0 fs-6 py-2 px-3 rounded">
+                Browse Courses
+              </button>
+              <button type="button" class="bg-white text-black border border-black fw-semibold fs-6 py-2 px-3 rounded">
+                Are You Instructor?
+              </button>
+            </div>
+            <img src="./assets/hero-img.png" alt="hero" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid border-bottom">
+          <div class="container">
+            <div class="row d-flex flex-column flex-lg-row">
+              <div class="col-lg-4 d-flex align-items-center">
+                <i class="bi bi-camera-video bg-warning p-3 rounded-circle me-2"></i>
+                <div>
+                  <h4 class="mb-0 mt-3 fs-5">30,000 online courses</h4>
+                  <p>Enjoy a variety of fresh topics</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex align-items-center">
+                <i class="bi bi-people bg-warning p-3 rounded-circle me-2"></i>
+                <div>
+                  <h4 class="mb-0 mt-3 fs-5">Expert instruction</h4>
+                  <p>Find the right instructor for you</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex align-items-center">
+                <i class="bi bi-clock bg-warning p-3 rounded-circle me-2"></i>
+                <div>
+                  <h4 class="mb-0 mt-3 fs-5">Lifetime access</h4>
+                  <p>Learn on your schedule</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div class="container mt-5 mb-5">
+          <h4 class="mb-4">Recommended to you</h4>
+          <div class="row">
+            <div class="card col-6 col-lg-3 px-0">
+              <img src="./assets/course-graphql.jpg" class="card-img-top w-100 object-fit-cover" alt="graphql" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><i class="bi bi-clock"></i> 2h 40m <i class="bi bi-bar-chart-fill"></i> Advance</p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i
+                  ><i class="bi bi-star"></i><i class="bi bi-star"></i> 2.5 (1,500)
+                </p>
+                <p class="d-inline fw-bold">$500</p>
+                <span class="text-decoration-line-through">$600</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-5.jpg" alt="avatar5" class="w-25 rounded-circle" />
+                <p>Brooklyn Simmons</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 px-0">
+              <img src="./assets/course-javascript.jpg" class="card-img-top w-100 object-fit-cover" alt="js" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">A Complete Begonner's Guide to JavaScript</h5>
+                <p class="card-text"><i class="bi bi-clock"></i> 4h 10m <i class="bi bi-bar-chart-fill"></i> Advance</p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i><i class="bi bi-star"></i> 3.5 (7,500)
+                </p>
+                <p class="d-inline fw-bold">$700</p>
+                <span class="text-decoration-line-through">$850</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-1.jpg" alt="avatar1" class="w-25 rounded-circle" />
+                <p>Jenny Wilson</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 d-none d-lg-flex px-0">
+              <img src="./assets/course-node.jpg" class="card-img-top w-100 object-fit-cover" alt="node" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">Beginning Node.js, Express $ MongoDB Development</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 2h 00m <i class="bi bi-bar-chart-fill"></i> Intermediate
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star"></i> 4.0 (15,700)
+                </p>
+                <p class="d-inline fw-bold">$800</p>
+                <span class="text-decoration-line-through">$950</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-3.jpg" alt="avatar3" class="w-25 rounded-circle" />
+                <p>Sina Ray</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 d-none d-lg-flex px-0">
+              <img src="./assets/course-laravel.jpg" class="card-img-top w-100 object-fit-cover" alt="laravel" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 1h 00m <i class="bi bi-bar-chart-fill"></i> Beginner
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> 4.5 (2,500)
+                </p>
+                <p class="d-inline fw-bold">$170</p>
+                <span class="text-decoration-line-through">$220</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-7.jpg" alt="avatar7" class="w-25 rounded-circle" />
+                <p>Sobo Rikhan</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-5 mb-5">
+          <h4 class="mb-4">Most Popular</h4>
+          <div class="row gap-0">
+            <div class="card col-6 col-lg-3 px-0">
+              <img src="./assets/course-html.jpg" class="card-img-top w-100 object-fit-cover" alt="html" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">HTML Full Course - Build a Website tutorial</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 3h 16m <i class="bi bi-bar-chart-fill"></i> Beginner
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i><i class="bi bi-star"></i> 3.0 (1,600)
+                </p>
+                <p class="d-inline fw-bold">$550</p>
+                <span class="text-decoration-line-through">$700</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-8.jpg" alt="avatar8" class="w-25 rounded-circle" />
+                <p>Miston Wilson</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 px-0">
+              <img src="./assets/course-javascript.jpg" class="card-img-top w-100 object-fit-cover" alt="js" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">A Complete Begonner's Guide to JavaScript</h5>
+                <p class="card-text"><i class="bi bi-clock"></i> 4h 10m <i class="bi bi-bar-chart-fill"></i> Advance</p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i><i class="bi bi-star"></i> 3.5 (7,500)
+                </p>
+                <p class="d-inline fw-bold">$700</p>
+                <span class="text-decoration-line-through">$850</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-1.jpg" alt="avatar1" class="w-25 rounded-circle" />
+                <p>Jenny Wilson</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 d-none d-lg-flex px-0">
+              <img src="./assets/course-node.jpg" class="card-img-top w-100 object-fit-cover" alt="node" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">Beginning Node.js, Express $ MongoDB Development</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 2h 00m <i class="bi bi-bar-chart-fill"></i> Intermediate
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star"></i> 4.0 (15,700)
+                </p>
+                <p class="d-inline fw-bold">$800</p>
+                <span class="text-decoration-line-through">$950</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-3.jpg" alt="avatar3" class="w-25 rounded-circle" />
+                <p>Sina Ray</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 d-none d-lg-flex px-0">
+              <img src="./assets/course-react.jpg" class="card-img-top w-100 object-fit-cover" alt="react" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">How to easily create a website with React</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 1h 00m <i class="bi bi-bar-chart-fill"></i> Beginner
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> 4.5 (1,500)
+                </p>
+                <p class="d-inline fw-bold">$600</p>
+                <span class="text-decoration-line-through">$750</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-2.jpg" alt="avatar2" class="w-25 rounded-circle" />
+                <p>April Noms</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-5 mb-5">
+          <h4 class="mb-4">Trending</h4>
+          <div class="row gap-0">
+            <div class="card col-6 col-lg-3 px-0">
+              <img src="./assets/course-gatsby.jpg" class="card-img-top w-100 object-fit-cover" alt="gatsby" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">Revolutionize how you build the web</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 1h 46m <i class="bi bi-bar-chart-fill"></i> Intermediate
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i
+                  ><i class="bi bi-star"></i><i class="bi bi-star"></i> 2.0 (16,500)
+                </p>
+                <p class="d-inline fw-bold">$800</p>
+                <span class="text-decoration-line-through">$850</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-3.jpg" alt="avatar8" class="w-25 rounded-circle" />
+                <p>Jenny Wilson</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 px-0">
+              <img src="./assets/course-html.jpg" class="card-img-top w-100 object-fit-cover" alt="html" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">HTML Full Course - Build a Website tutorial</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 3h 16m <i class="bi bi-bar-chart-fill"></i> Beginner
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i><i class="bi bi-star"></i> 3.0 (1,600)
+                </p>
+                <p class="d-inline fw-bold">$550</p>
+                <span class="text-decoration-line-through">$700</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-8.jpg" alt="avatar8" class="w-25 rounded-circle" />
+                <p>Miston Wilson</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 d-none d-lg-flex px-0">
+              <img src="./assets/course-node.jpg" class="card-img-top w-100 object-fit-cover" alt="node" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">Beginning Node.js, Express $ MongoDB Development</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 2h 00m <i class="bi bi-bar-chart-fill"></i> Intermediate
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star"></i> 4.0 (15,700)
+                </p>
+                <p class="d-inline fw-bold">$800</p>
+                <span class="text-decoration-line-through">$950</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-3.jpg" alt="avatar3" class="w-25 rounded-circle" />
+                <p>Sina Ray</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+            <div class="card col-6 col-lg-3 d-none d-lg-flex px-0">
+              <img src="./assets/course-laravel.jpg" class="card-img-top w-100 object-fit-cover" alt="laravel" />
+              <div class="card-body border border-bottom">
+                <h5 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                <p class="card-text">
+                  <i class="bi bi-clock"></i> 1h 00m <i class="bi bi-bar-chart-fill"></i> Beginner
+                </p>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> 4.5 (2,500)
+                </p>
+                <p class="d-inline fw-bold">$170</p>
+                <span class="text-decoration-line-through">$220</span>
+              </div>
+              <div class="py-2 px-2 d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-7.jpg" alt="avatar7" class="w-25 rounded-circle" />
+                <p>Sobo Rikhan</p>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
